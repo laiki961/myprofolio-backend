@@ -22,7 +22,4 @@ public class ProjectEntity {
     @OneToMany(mappedBy = "project")
     private List<ProjectImageEntity> imageUrls;
 
-
-
-
 }
