@@ -6,11 +6,14 @@ import javax.persistence.*;
 @Table(name="ProjectImage")
 public class ProjectImageEntity {
     @Id
-    @Column(name = "projectImage_id", nullable = false, updatable = false)
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", nullable = false, updatable = false)
     private Long id;
+
     @ManyToOne
     @JoinColumn(name="project_id", nullable = false)
     private ProjectEntity project;
+
     @Column(name="project_image", nullable = false)
     private String image;
 
