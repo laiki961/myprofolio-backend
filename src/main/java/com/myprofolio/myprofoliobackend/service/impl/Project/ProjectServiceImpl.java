@@ -1,9 +1,9 @@
-package com.myprofolio.myprofoliobackend.service.impl;
+package com.myprofolio.myprofoliobackend.service.impl.Project;
 
-import com.myprofolio.myprofoliobackend.domain.Project;
-import com.myprofolio.myprofoliobackend.domain.entity.ProjectEntity;
-import com.myprofolio.myprofoliobackend.repository.ProjectRepository;
-import com.myprofolio.myprofoliobackend.service.ProjectService;
+import com.myprofolio.myprofoliobackend.domain.Project.Project;
+import com.myprofolio.myprofoliobackend.domain.entity.Project.ProjectEntity;
+import com.myprofolio.myprofoliobackend.repository.Project.ProjectRepository;
+import com.myprofolio.myprofoliobackend.service.Project.ProjectService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

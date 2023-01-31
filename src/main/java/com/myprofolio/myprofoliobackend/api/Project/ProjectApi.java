@@ -1,8 +1,8 @@
-package com.myprofolio.myprofoliobackend.api;
+package com.myprofolio.myprofoliobackend.api.Project;
 
-import com.myprofolio.myprofoliobackend.domain.Project;
-import com.myprofolio.myprofoliobackend.domain.dto.res.ProjectResponseDto;
-import com.myprofolio.myprofoliobackend.service.ProjectService;
+import com.myprofolio.myprofoliobackend.domain.Project.Project;
+import com.myprofolio.myprofoliobackend.domain.dto.Project.res.ProjectResponseDto;
+import com.myprofolio.myprofoliobackend.service.Project.ProjectService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,6 +41,7 @@ public class ProjectApi {
         }
     }
 
+    //DO to DTO
     public List<ProjectResponseDto> toProjectResponseDto(List<Project> projects){
         List<ProjectResponseDto> responseDtos = new ArrayList<>();
         for(Project project: projects){

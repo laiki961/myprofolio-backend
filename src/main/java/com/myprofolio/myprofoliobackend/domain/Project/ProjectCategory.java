@@ -1,4 +1,4 @@
-package com.myprofolio.myprofoliobackend.domain;
+package com.myprofolio.myprofoliobackend.domain.Project;
 
 import com.myprofolio.myprofoliobackend.domain.entity.Project.ProjectCategoryEntity;
 

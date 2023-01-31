@@ -1,9 +1,9 @@
-package com.myprofolio.myprofoliobackend.service.impl;
+package com.myprofolio.myprofoliobackend.service.impl.Project;
 
-import com.myprofolio.myprofoliobackend.domain.ProjectCategory;
-import com.myprofolio.myprofoliobackend.domain.entity.ProjectCategoryEntity;
-import com.myprofolio.myprofoliobackend.repository.ProjectCategoryRepository;
-import com.myprofolio.myprofoliobackend.service.ProjectCategoryService;
+import com.myprofolio.myprofoliobackend.domain.Project.ProjectCategory;
+import com.myprofolio.myprofoliobackend.domain.entity.Project.ProjectCategoryEntity;
+import com.myprofolio.myprofoliobackend.repository.Project.ProjectCategoryRepository;
+import com.myprofolio.myprofoliobackend.service.Project.ProjectCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

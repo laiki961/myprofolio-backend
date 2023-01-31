@@ -1,4 +1,4 @@
-package com.myprofolio.myprofoliobackend.domain.entity;
+package com.myprofolio.myprofoliobackend.domain.entity.Project;
 
 import javax.persistence.*;
 

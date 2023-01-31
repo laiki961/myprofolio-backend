@@ -1,13 +1,13 @@
-package com.myprofolio.myprofoliobackend.domain.dto.ToDoList.res;
+package com.myprofolio.myprofoliobackend.domain.dto.ToDoList.req;
 
 import com.myprofolio.myprofoliobackend.domain.ToDoList.Flag;
 
-public class FlagResDto {
+public class FlagReqDto {
     private Long id;
     private String flag;
 
     //DO to DTO
-    public FlagResDto(Flag flag) {
+    public FlagReqDto(Flag flag) {
         this.id = flag.getId();
         this.flag = flag.getFlag();
     }

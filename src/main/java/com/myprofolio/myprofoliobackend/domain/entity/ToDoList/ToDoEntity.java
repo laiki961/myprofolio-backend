@@ -1,6 +1,6 @@
-package com.myprofolio.myprofoliobackend.domain.entity;
+package com.myprofolio.myprofoliobackend.domain.entity.ToDoList;
 
-import com.myprofolio.myprofoliobackend.domain.ToDo;
+import com.myprofolio.myprofoliobackend.domain.ToDoList.ToDo;
 
 import javax.persistence.*;
 
@@ -18,6 +18,10 @@ public class ToDoEntity {
     @Column(name="details")
     private String details;
 
+    @ManyToOne
+    @JoinColumn(name = "flag", nullable = false)
+    private FlagEntity flag;
+
 
 //    public ToDoEntity(Long id, String subject, String details) {
 //        this.id = id;
@@ -25,10 +29,12 @@ public class ToDoEntity {
 //        this.details = details;
 //    }
 
+    //DO to Entity
     public ToDoEntity(ToDo toDo){
         this.id = toDo.getId();
         this.subject = toDo.getSubject();
         this.details = toDo.getDetails();
+//        this.flag = new Flag(toDo.getFlag());
     }
 
     public Long getId() {
@@ -41,5 +47,25 @@ public class ToDoEntity {
 
     public String getDetails() {
         return details;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    public FlagEntity getFlag() {
+        return flag;
+    }
+
+    public void setFlag(FlagEntity flag) {
+        this.flag = flag;
+    }
+
+    public void setDetails(String details) {
+        this.details = details;
     }
 }

@@ -1,13 +1,13 @@
-package com.myprofolio.myprofoliobackend.service;
+package com.myprofolio.myprofoliobackend.service.Project;
 
-import com.myprofolio.myprofoliobackend.domain.Project;
+import com.myprofolio.myprofoliobackend.domain.Project.Project;
 
 import java.util.List;
 import java.util.Map;
 
 public interface ProjectService {
     List<Project> getAllProjects();
-//    Map<Long, Project> getProjectByIds(List<Long> projectIds);
+    Map<Long, Project> getProjectByIds(List<Long> projectIds);
     List<Project> getProjectByProjectName(String projectName);
     List<Project> getProjectsByCategoryId(Long Id);
     Project getProjectDetails(Long id);

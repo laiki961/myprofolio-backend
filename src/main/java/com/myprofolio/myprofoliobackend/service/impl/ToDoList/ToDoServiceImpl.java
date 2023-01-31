@@ -1,9 +1,9 @@
-package com.myprofolio.myprofoliobackend.service.impl;
+package com.myprofolio.myprofoliobackend.service.impl.ToDoList;
 
-import com.myprofolio.myprofoliobackend.domain.ToDo;
-import com.myprofolio.myprofoliobackend.domain.entity.ToDoEntity;
-import com.myprofolio.myprofoliobackend.repository.ToDoRepository;
-import com.myprofolio.myprofoliobackend.service.ToDoService;
+import com.myprofolio.myprofoliobackend.domain.ToDoList.ToDo;
+import com.myprofolio.myprofoliobackend.domain.entity.ToDoList.ToDoEntity;
+import com.myprofolio.myprofoliobackend.repository.ToDoList.ToDoRepository;
+import com.myprofolio.myprofoliobackend.service.ToDoList.ToDoService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;

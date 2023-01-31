@@ -1,6 +1,6 @@
-package com.myprofolio.myprofoliobackend.service;
+package com.myprofolio.myprofoliobackend.service.Project;
 
-import com.myprofolio.myprofoliobackend.domain.ProjectCategory;
+import com.myprofolio.myprofoliobackend.domain.Project.ProjectCategory;
 
 import java.util.List;
 

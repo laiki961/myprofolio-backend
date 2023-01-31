@@ -1,7 +1,6 @@
-package com.myprofolio.myprofoliobackend.repository;
+package com.myprofolio.myprofoliobackend.repository.Project;
 
-import com.myprofolio.myprofoliobackend.domain.Project;
-import com.myprofolio.myprofoliobackend.domain.entity.ProjectEntity;
+import com.myprofolio.myprofoliobackend.domain.entity.Project.ProjectEntity;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

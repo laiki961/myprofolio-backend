@@ -1,8 +1,8 @@
-package com.myprofolio.myprofoliobackend.api;
+package com.myprofolio.myprofoliobackend.api.Project;
 
-import com.myprofolio.myprofoliobackend.domain.ProjectCategory;
-import com.myprofolio.myprofoliobackend.domain.dto.res.ProjectCategoryResponseDto;
-import com.myprofolio.myprofoliobackend.service.ProjectCategoryService;
+import com.myprofolio.myprofoliobackend.domain.Project.ProjectCategory;
+import com.myprofolio.myprofoliobackend.domain.dto.Project.res.ProjectCategoryResponseDto;
+import com.myprofolio.myprofoliobackend.service.Project.ProjectCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

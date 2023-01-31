@@ -1,10 +1,12 @@
-package com.myprofolio.myprofoliobackend.service;
+package com.myprofolio.myprofoliobackend.service.ToDoList;
 
-import com.myprofolio.myprofoliobackend.domain.ToDo;
+import com.myprofolio.myprofoliobackend.domain.ToDoList.ToDo;
 
 import java.util.List;
 
 public interface ToDoService {
-    ToDo createToDo(ToDo toDo);
     List<ToDo> getAllToDo();
+    ToDo getToDoDetails(Long id);
+    ToDo createToDo(ToDo toDo);
+
 }
